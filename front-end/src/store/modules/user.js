@@ -53,8 +53,7 @@ const actions = {
   signOut({ commit }) {
     commit("USER_SIGNOUT");
     localStorage.removeItem("userInfo");
-    localStorage.removeItem("cartItems");
-    localStorage.removeItem("shippingAddress");
+    
   },
   clear({ commit }) {
     commit("CLEAR");
